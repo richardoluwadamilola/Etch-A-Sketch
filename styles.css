@@ -57,13 +57,3 @@ body {
 .blue {
     background-color: blue;
 }
-
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-    * {width: 100%;}
-   
-}
