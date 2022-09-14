@@ -62,3 +62,39 @@
   .blue {
     background-color: blue;
   }
+
+  /* MEDIA QUERIES */
+  @media (max-width: 1200px) {
+    body { 
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 850px) {
+    body {
+        gap: 50px;
+    }
+
+    .buttons {
+        width: 150px;
+        gap: 16px;
+    }
+
+    #container {
+        width: 400px;
+        height: 400px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .title {
+        font-size: 50px;
+    }
+    body {
+        flex-direction: column-reverse;
+    }
+    #container {
+        width: 300px;
+        height: 300px;
+    }
+  }
